@@ -72,7 +72,7 @@ const MapSection: React.FC<MapSectionProps> = ({ onSelectCountry }) => {
              <span className="w-3 h-3 bg-blue-500 rounded-full animate-pulse"></span> Data Terupdate Hari Ini
            </div>
            <div className="flex items-center gap-2">
-             <Map size={16} /> Klik marker untuk detail
+             <MapIcon size={16} /> Klik marker untuk detail
            </div>
         </div>
       </div>
